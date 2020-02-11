@@ -4,9 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -b"
+    "build": "tsc -b",
+    "build:rollup": "rollup -c"
   },
   "devDependencies": {
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-typescript": "^3.0.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^1.31.0",
+    "tslib": "^1.10.0",
     "typescript": "^3.7.5"
   }
 }
