@@ -10,7 +10,9 @@ rimraf.sync("./dist");
 rimraf.sync("./.ts-tmp");
 
 export default {
-  input: "./src/index.ts",
+  input: {
+    sw: "./src/sw/index.ts"
+  },
   output: {
     dir: "./dist"
   },

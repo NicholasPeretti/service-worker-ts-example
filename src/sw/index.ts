@@ -7,7 +7,8 @@
 declare var self: ServiceWorkerGlobalScope;
 export {};
 
-import { version } from "../package.json";
+// import { version } from "../../package.json";
+const version = 2;
 
 const CACHE_NAME = `static-cache-${version}`;
 const filesToCache = ["/"];

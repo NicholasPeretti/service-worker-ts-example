@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    //  Lib needed from SW (DON'T ADD ANY OTHER LIBRARY)
+    "lib": [
+      "WebWorker",
+      "ESNext"
+    ],
+    //  Resolve json modules
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    //  Add build parameters
+    "module": "esnext",
+    "target": "esnext",
+  }
+}
